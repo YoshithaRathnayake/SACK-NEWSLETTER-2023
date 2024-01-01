@@ -1,3 +1,96 @@
+html {
+    scroll-behavior: smooth;
+}
+
+/* Text Selection Colour */
+
+::selection {
+    color: black;
+    background: rgb(0, 217, 255);
+  }
+  
+  /* Firefox */
+  
+  ::-moz-selection {
+    color: black;
+    background: rgb(0, 217, 255);
+  }
+  
+
+  /* Custom Scrollbar */
+
+@media (min-width: 200px) and (max-width: 575px) {
+    ::-webkit-scrollbar {
+      width: 5px;
+      height: 5px;
+      background-color: #07090f;
+    }
+  
+    ::-webkit-scrollbar-track {
+      border: 5px solid rgba(255, 255, 255, 0.25);
+      box-shadow: inset 0 0 2.5px 2 rgba(0, 0, 0, 0.5);
+    }
+  
+    ::-webkit-scrollbar-thumb {
+      background: linear-gradient(45deg, #003079, #2eaae1);
+      border-radius: 15px;
+    }
+  }
+  
+  @media (min-width: 575.1px) and (max-width: 767px) {
+    ::-webkit-scrollbar {
+      width: 6px;
+      height: 6px;
+      background-color: #07090f;
+    }
+  
+    ::-webkit-scrollbar-track {
+      border: 5px solid rgba(255, 255, 255, 0.25);
+      box-shadow: inset 0 0 2.5px 2 rgba(0, 0, 0, 0.5);
+    }
+  
+    ::-webkit-scrollbar-thumb {
+      background: linear-gradient(45deg, #003079, #2eaae1);
+      border-radius: 15px;
+    }
+  }
+  
+  @media (min-width: 767.1px) and (max-width: 991px) {
+    ::-webkit-scrollbar {
+      width: 8px;
+      height: 8px;
+      background-color: #07090f;
+    }
+  
+    ::-webkit-scrollbar-track {
+      border: 5px solid rgba(255, 255, 255, 0.25);
+      box-shadow: inset 0 0 2.5px 2 rgba(0, 0, 0, 0.5);
+    }
+  
+    ::-webkit-scrollbar-thumb {
+      background: linear-gradient(45deg, #003079, #2eaae1);
+      border-radius: 15px;
+    }
+  }
+  
+  @media (min-width: 991.1px) {
+    ::-webkit-scrollbar {
+      width: 10px;
+      height: 10px;
+      background-color: #07090f;
+    }
+  
+    ::-webkit-scrollbar-track {
+      border: 5px solid rgba(255, 255, 255, 0.25);
+      box-shadow: inset 0 0 2.5px 2 rgba(0, 0, 0, 0.5);
+    }
+  
+    ::-webkit-scrollbar-thumb {
+      background: linear-gradient(45deg, #003079, #2eaae1);
+      border-radius: 15px;
+    }
+  }
+
 body {
     background-image: url("../img/bg.jpg");
     background-position: center;
