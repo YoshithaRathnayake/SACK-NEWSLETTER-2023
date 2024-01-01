@@ -309,3 +309,19 @@ marquee {
     border-radius: 10px;
     margin-top: 108px;
 }
+
+.social-media {
+    margin-top: 10px;
+}
+
+.icons {
+    transition: 0.5s;
+    color: rgb(168, 168, 168);
+}
+
+.icons:hover {
+    cursor: pointer;
+    transform: translateY(-4px);
+    transition: 0.5s;
+    color: rgb(124, 124, 124);
+}
